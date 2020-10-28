@@ -272,6 +272,9 @@ persist.vendor.usb.config=mtp,adb
 # Wifi
 wifi.aware.interface=wifi-aware0
 
+# Zygote
+zygote.critical_window.minute=10
+
 # Fling
 ro.min.fling_velocity=160 
 ro.max.fling_velocity=20000
