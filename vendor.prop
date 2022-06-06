@@ -275,6 +275,8 @@ wifi.aware.interface=wifi-aware0
 # Zygote
 zygote.critical_window.minute=10
 
+persist.vendor.console.silent.config=1 
+
 # Fling
 ro.min.fling_velocity=160 
 ro.max.fling_velocity=20000
