@@ -162,7 +162,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
     libdisplayconfig.qti.vendor \
+    libdisplayconfig.system.qti \
     libqdMetaData \
+    libqdMetaData.system \
     libtinyxml \
     gralloc.default \
     memtrack.default
@@ -387,7 +389,8 @@ PRODUCT_COPY_FILES += \
 
 # QTI
 PRODUCT_PACKAGES += \
-    libqti_vndfwk_detect.vendor
+    libqti_vndfwk_detect.vendor \
+    libvndfwk_detect_jni.qti.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
