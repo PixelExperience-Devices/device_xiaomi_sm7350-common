@@ -3,3 +3,6 @@ persist.vendor.dpm.feature=11
 
 # Media
 vendor.media.target_variant=_lahaina
+
+# Camera
+persist.vendor.camera.expose.aux=1
