@@ -204,6 +204,9 @@ service vendor.nv_mac /vendor/bin/nv_mac
     group system inet net_admin wifi net_raw
     oneshot
 
+# Enable UFS powersaving
+    write /sys/devices/platform/soc/1d84000.ufshc/clkgate_enable 1
+
 service init-sensors_fix-sh /vendor/bin/init.sensors_fix.sh
     class main
     user system
