@@ -1,10 +1,6 @@
 # Bluetooth
 vendor.bluetooth.soc=hastings
 
-# Camera
-persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
-
 # Charger
 ro.charger.enable_suspend=true
 
@@ -48,6 +44,17 @@ ro.vendor.qti.sys.fw.bservice_enable=true
 # Radio
 DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
+
+# Ram
+ro.config.fha_enable=true
+ro.sys.fw.bg_apps_limit=32
+ro.config.dha_cached_max=16
+ro.config.dha_empty_max=42
+ro.config.dha_empty_init=32
+ro.config.dha_lmk_scale=0.545
+ro.config.dha_th_rate=2.3
+ro.config.sdha_apps_bg_max=64
+ro.config.sdha_apps_bg_min=8
 
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
