@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-COMMON_PATH := device/xiaomi/sm8350-common
+COMMON_PATH := device/xiaomi/sm7350-common
 
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_DUP_RULES := true
@@ -234,4 +234,4 @@ CONFIG_ACS := true
 CONFIG_IEEE80211AX := true
 
 # Inherit proprietary blobs
-include vendor/xiaomi/sm8350-common/BoardConfigVendor.mk
+include vendor/xiaomi/sm7350-common/BoardConfigVendor.mk

@@ -26,8 +26,8 @@
 
     },
     {
-        "repository": "vendor_xiaomi_sm8350-common",
-        "target_path": "vendor/xiaomi_sm8350-common",
+        "repository": "vendor_xiaomi_sm7350-common",
+        "target_path": "vendor/xiaomi_sm7350-common",
         "branch": "thirteen",
         "remote": "pixel-devices-blobs"
 
