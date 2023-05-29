@@ -13,21 +13,21 @@
     },
     {
         "repository": "vendor_xiaomi_renoir",
-        "target_path": "vendor/xiaomi_renoir",
+        "target_path": "vendor/xiaomi/renoir",
         "branch": "thirteen",
         "remote": "pixel-devices-blobs"
 
     },
     {
         "repository": "vendor_xiaomi_renoir-firmware",
-        "target_path": "vendor/xiaomi_renoir-firmware",
+        "target_path": "vendor/xiaomi/renoir-firmware",
         "branch": "thirteen",
         "remote": "pixel-devices-blobs"
 
     },
     {
         "repository": "vendor_xiaomi_sm7350-common",
-        "target_path": "vendor/xiaomi_sm7350-common",
+        "target_path": "vendor/xiaomi/sm7350-common",
         "branch": "thirteen",
         "remote": "pixel-devices-blobs"
 
